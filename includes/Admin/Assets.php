@@ -60,13 +60,7 @@ class Assets {
 			HOSTINGER_VERSION
 		);
 
-		// Plugin rating styles.
-		wp_enqueue_style(
-			'hostinger_rating_styles',
-			HOSTINGER_ASSETS_URL . '/css/plugin-rating.min.css',
-			array(),
-			HOSTINGER_VERSION
-		);
+
 	}
 
 	public function global_styles(): void {
